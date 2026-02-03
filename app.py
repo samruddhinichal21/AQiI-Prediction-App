@@ -7,7 +7,7 @@ st.title("Air Quality Index (AQI) Prediction")
 
 st.write("Predict the Air Quality Index (AQI) based on input parameters.")
 #Load the pre-trained model 
-model = joblib.load("LR_AQI_prediction.joblib")
+model = joblib.load("LR_AQI_Prediction.joblib")
 
 #Input fields for the features
 pm25 = st.number_input("PM2.5" , 0.0, 500.0, 50.0)
